@@ -70,11 +70,13 @@ Esto lo realizaremos guardando los datos en MySQL, y creando  JWT
     introducido en la BBDD pero se puede hacer en el endpoint
   
     Poner en marcha el proyecto en eclipse hay una configuracion que rellenara automaicamente la base de datos con el json que se adjuntaba en el archivo secreto.
+    
+    Se ha añadido un archivo de properties por defecto dentro del proyeto y otro fuera del proyecto con el puerto diferente en el cual podriamos cambiar todas las         variables de entorno que podriamos ir cambiando segun las necesidades si no se añade un properties fuera del proyecto se ejecutan las que hay por defecto si           añadimos en la raiz del proyecto el nuevo properties se ejecutarian estas segundas 
       
         
   ## Roadmap and visuals
   
-     Se han añadido archivos json con las llamadas al api y ejemplos implementados para facilitar las llamadas
+     Se han añadido archivos json con las llamadas al api y ejemplos implementados para facilitar las llamadas e incluir el super usuario del archivo para que se pueda      incluir en la bbdd
      
      
    [Ejemplo Postman](https://github.com/Isabel160609/JOBarcelona-22-/blob/main/images/2022-05-18.png)
